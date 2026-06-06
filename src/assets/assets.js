@@ -24,6 +24,7 @@ import img15 from "./img15.jpg"
 import yelp from "./yelp.svg"
 import dropdown from "./dropdown.svg"
 import next from "./next.svg"
+import cross from "./cross_icon.png"
 
 export const assets = {
     cart, 
@@ -51,7 +52,8 @@ export const assets = {
     img15,
     yelp,
     dropdown,
-    next
+    next, 
+    cross
 }
 
 export const products = [
@@ -59,7 +61,7 @@ export const products = [
         _id:"aaaa",
         name:"Men Round Neck Pure Cotton T-shirt",
         description:"",
-        price:"100", 
+        price:"150", 
         image:[img10],
         category:"",
         subCategory:"",
@@ -71,9 +73,9 @@ export const products = [
         _id:"aaab",
         name:"Women Apparel Sports Gym Wear",
         description:"",
-        price:"100", 
+        price:"110", 
         image:[img2],
-        category:"",
+        category:"Women",
         subCategory:"",
         sizes:"",
         date:"",
@@ -83,9 +85,9 @@ export const products = [
         _id:"aaac",
         name:"Men Round Neck Pure Cotton T-shirt",
         description:"",
-        price:"100", 
+        price:"90", 
         image:[img10],
-        category:"",
+        category:"Men",
         subCategory:"",
         sizes:"",
         date:"",
@@ -110,7 +112,7 @@ export const products = [
         price:"100", 
         image:[img10],
         category:"Men",
-        subCategory:"",
+        subCategory:"Topwear",
         sizes:"",
         date:"",
         bestSeller:"true"
