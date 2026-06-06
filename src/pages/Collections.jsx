@@ -31,7 +31,7 @@ const Collections = () => {
       setsubCategory(prev => prev.filter(item => item !== e.target.value))
     }
     else{
-      setsubCategory(prev => [...prev,e.target.value])
+      setSubCategory(prev => [...prev,e.target.value])
     }
 
   }
@@ -42,7 +42,7 @@ const Collections = () => {
   }, [])
 
 
-  // THIS IS THE CHECK THE TOGGLECATEGORY LOGIC IN THE CONSOLE.
+  // THIS IS THE CHECK THE TOGGLECATEGORY LOGIC IN THE CONSOLE. YPU COULD ALSO POP SUBCATEGORY IN THERE TO CHECK IN CONSOLE.
 
  {/* useEffect(()=>{
     console.log(category);
