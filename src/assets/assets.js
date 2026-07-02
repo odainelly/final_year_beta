@@ -62,6 +62,10 @@ import p_img29 from "./p_img29.png"
 import p_img30 from "./p_img30.png"
 import p_img31 from "./p_img31.png"
 import bin_icon from "./bin_icon.png"
+import stripe_logo from "./stripe_logo.png"
+import razorpay_logo from "./razorpay_logo.png"
+import about from "./about_img.png"
+import BnL from "./BnL.png"
 
 
 export const assets = {
@@ -151,7 +155,10 @@ export const assets = {
     // p_img52 ,
     // profile,
     bin_icon,
-    
+    stripe_logo,
+    razorpay_logo,
+    about,
+    BnL,
 }
 
 export const products = [
@@ -300,7 +307,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaam",
         name:"Men Round Neck Pure Cotton T-shirt",
         description:"",
         price:"100", 
@@ -312,7 +319,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaan",
         name:"Men Round Neck Pure Cotton T-shirt",
         description:"",
         price:"100", 
@@ -324,7 +331,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaao",
         name:"Kids",
         description:"",
         price:"100", 
@@ -336,7 +343,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaap",
         name:"Women",
         description:"",
         price:"100", 
@@ -348,7 +355,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaaq",
         name:"Women",
         description:"",
         price:"100", 
@@ -360,7 +367,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaar",
         name:"Women",
         description:"",
         price:"100", 
@@ -372,7 +379,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaas",
         name:"Women",
         description:"",
         price:"100", 
@@ -384,7 +391,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaat",
         name:"Women",
         description:"",
         price:"100", 
@@ -396,7 +403,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaau",
         name:"Women",
         description:"",
         price:"100", 
@@ -408,7 +415,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaav",
         name:"Women",
         description:"",
         price:"100", 
@@ -420,7 +427,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaaw",
         name:"Women",
         description:"",
         price:"100", 
@@ -432,7 +439,7 @@ export const products = [
         bestSeller:"true"
       },
       {
-        _id:"aaak",
+        _id:"aaax",
         name:"Women",
         description:"",
         price:"100", 
