@@ -4,7 +4,7 @@ import logoA from "./logoA.svg"
 import logoB from "./logoB.svg"
 import menu from "./menu.svg"
 import profile from "./profile.svg"
-import search from "./search.svg"
+import search from "./search_icon.png"
 import shorts from "./shorts.jpg"
 import img1 from "./img1.jpg"
 import img2 from "./img2.jpg"
@@ -66,6 +66,7 @@ import stripe_logo from "./stripe_logo.png"
 import razorpay_logo from "./razorpay_logo.png"
 import about from "./about_img.png"
 import BnL from "./BnL.png"
+import hero from "./hero_img.png"
 
 
 export const assets = {
@@ -159,6 +160,8 @@ export const assets = {
     razorpay_logo,
     about,
     BnL,
+    hero,
+    
 }
 
 export const products = [
