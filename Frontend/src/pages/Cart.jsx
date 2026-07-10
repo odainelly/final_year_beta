@@ -2,7 +2,7 @@ import React from 'react'
 import { useContext,useState, useEffect } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import Title from '../components/Title';
-import { div } from 'motion/react-client';
+// import { div } from 'motion/react-client';
 import assets from '../assets/assets';
 import CartTotal from '../components/CartTotal';
 
