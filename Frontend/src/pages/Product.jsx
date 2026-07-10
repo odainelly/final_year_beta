@@ -151,7 +151,7 @@ const Product = () => {
   // ---- Skeleton loader (reserves layout space to prevent CLS) ----
   if (!productData) {
     return (
-      <div className='border-t-2 pt-10 flex gap-12 sm:gap-12 flex-cols sm:flex-row animate-pulse'>
+      <div className='border-t-2 pt-10 flex flex-col gap-6 sm:gap-12 sm:flex-row animate-pulse'>
         <div className='flex-1 flex flex-col-reverse gap-3 sm:flex-row'>
           <div className="flex sm:flex-col overflow-x-auto sm:overflow-y-scroll justify-between sm:justify-normal sm:w-[18.7%] w-full gap-3">
             {[...Array(4)].map((_, i) => (
@@ -174,7 +174,7 @@ const Product = () => {
   return (
     <div className='border-t-2 pt-10 transition-opacity ease-in duration-500 opacity-100 '>
       {/*-------------------- Product data ----------------- */}
-      <div className='flex gap-12 sm:gap-12 flex-cols sm:flex-row'>
+      <div className='flex flex-col gap-6 sm:gap-12 sm:flex-row'>
 
         {/*----------------------- Product Images ------------------------- */}
 
@@ -190,16 +190,16 @@ const Product = () => {
                   width={200}
                   height={200}
                   loading="lazy"
-                  className='w-[24%] sm:w-full sm:mb-3 shrink-0 cursor-pointer aspect-square object-cover'
+                  className={`w-[24%] sm:w-full sm:mb-3 shrink-0 cursor-pointer aspect-square object-cover rounded border-2 ${item === image ? 'border-black' : 'border-transparent'}`}
                   alt={`${productData.name} thumbnail ${index + 1}`}
                 />
               ))
             }
           </div>
 
-          <div className="w-full sm:w-[80%]">
+          <div className="w-full sm:w-[80%] aspect-square bg-gray-50 rounded overflow-hidden">
             <img
-              className='w-full h-auto aspect-square object-cover'
+              className='w-full h-full object-contain'
               src={image}
               alt={productData.name}
               width={800}
