@@ -3,7 +3,7 @@ import hoodie from "./hoodie.jpg"
 import logoA from "./logoA.svg"
 import logoB from "./logoB.svg"
 import menu from "./menu.svg"
-import profile from "./profile.svg"
+import profile from "./profile_icon.png"
 import search from "./search_icon.png"
 import shorts from "./shorts.jpg"
 import img1 from "./img1.jpg"
@@ -61,6 +61,27 @@ import p_img28 from "./p_img28.png"
 import p_img29 from "./p_img29.png"
 import p_img30 from "./p_img30.png"
 import p_img31 from "./p_img31.png"
+import p_img32 from "./p_img32.png"
+import p_img33 from "./p_img33.png"
+import p_img34 from "./p_img34.png"
+import p_img35 from "./p_img35.png"
+import p_img36 from "./p_img36.png"
+import p_img37 from "./p_img37.png"
+import p_img38 from "./p_img38.png"
+import p_img39 from "./p_img39.png"
+import p_img40 from "./p_img40.png"
+import p_img41 from "./p_img41.png"
+import p_img42 from "./p_img42.png"
+import p_img43 from "./p_img43.png"
+import p_img44 from "./p_img44.png"
+import p_img45 from "./p_img45.png"
+import p_img46 from "./p_img46.png"
+import p_img47 from "./p_img47.png"
+import p_img48 from "./p_img48.png"
+import p_img49 from "./p_img49.png"
+import p_img50 from "./p_img50.png"
+import p_img51 from "./p_img51.png"
+import p_img52 from "./p_img52.png"
 import bin_icon from "./bin_icon.png"
 import stripe_logo from "./stripe_logo.png"
 import razorpay_logo from "./razorpay_logo.png"
@@ -133,28 +154,27 @@ export const assets = {
     p_img29 ,
     p_img30 ,
     p_img31 ,
-    // p_img32 ,
-    // p_img33 ,
-    // p_img34 ,
-    // p_img35 ,
-    // p_img36 ,
-    // p_img37 ,
-    // p_img38 ,
-    // p_img39 ,
-    // p_img40 ,
-    // p_img41 ,
-    // p_img42 ,
-    // p_img43 ,
-    // p_img44 ,
-    // p_img45 ,
-    // p_img46 ,
-    // p_img47 ,
-    // p_img48 ,
-    // p_img49 ,
-    // p_img50 ,
-    // p_img51 ,
-    // p_img52 ,
-    // profile,
+    p_img32 ,
+    p_img33 ,
+    p_img34 ,
+    p_img35 ,
+    p_img36 ,
+    p_img37 ,
+    p_img38 ,
+    p_img39 ,
+    p_img40 ,
+    p_img41 ,
+    p_img42 ,
+    p_img43 ,
+    p_img44 ,
+    p_img45 ,
+    p_img46 ,
+    p_img47 ,
+    p_img48 ,
+    p_img49 ,
+    p_img50 ,
+    p_img51 ,
+    p_img52 ,
     bin_icon,
     stripe_logo,
     razorpay_logo,
@@ -447,6 +467,378 @@ export const products = [
         description:"",
         price:"100", 
         image:[p_img29],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aaay",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img30],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aaaz",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img31],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aaba",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img32],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabb",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img33],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabc",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img34],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabd",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img35],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabe",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img36],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabf",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img37],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabg",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img38],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabh",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img39],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabi",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img40],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabj",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img41],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabk",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img42],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabl",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img43],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabm",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img44],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabn",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img45],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabo",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img46],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabp",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img47],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabq",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img48],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabr",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img49],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabs",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img50],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabt",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img51],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabu",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img52],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabv",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img12],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabw",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img11],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabx",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img5],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aaby",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img8],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aabz",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img7],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aaca",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img17],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aacb",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img16],
+        category:"Women",
+        subCategory:"Bottomwear",
+        sizes:["M","L","XL"],
+        date:"",
+        bestSeller:"true"
+      },
+      {
+        _id:"aacc",
+        name:"Women",
+        description:"",
+        price:"100", 
+        image:[p_img18],
         category:"Women",
         subCategory:"Bottomwear",
         sizes:["M","L","XL"],
