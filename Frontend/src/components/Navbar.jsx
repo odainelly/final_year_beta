@@ -184,15 +184,64 @@ const Navbar = () => {
       </div>
 
       {/* sidebar menu for a smaller screen */}
-      <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${visible ? 'w-full' : 'w-0'}`}>
-        <div className='flex flex-col text-gray-600'>
-          <div onClick={() => setVisible(false)} className='flex items-center gap-4 p-3 cursor-pointer'>
-            <p>Back</p>
+
+
+      {/* Backdrop */}
+
+            
+      <div
+        onClick={() => setVisible(false)}
+        className={`fixed inset-0 bg-black/40 transition-opacity duration-300 z-40 ${
+          visible ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+        }`}
+      />
+
+      {/* Sidebar */}
+      <div
+        className={`fixed top-0 right-0 bottom-0 w-4/5 max-w-xs bg-white z-50 shadow-xl transition-transform duration-300 ease-in-out ${
+          visible ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        <div className="flex flex-col h-full text-gray-700">
+          {/* Header */}
+          <div className="flex items-center justify-between px-5 py-4 border-b">
+            <span className="text-sm font-medium text-gray-500">Menu</span>
+            <button
+              onClick={() => setVisible(false)}
+              className="p-2 -mr-2 text-gray-500 hover:text-gray-800 active:scale-95 transition"
+              aria-label="Close menu"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
           </div>
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/'>HOME</NavLink>
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/collections'>COLLECTION</NavLink>
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
-          <NavLink onClick={() => setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
+
+          {/* Nav links */}
+          <nav className="flex flex-col mt-2">
+            {[
+              { to: '/', label: 'Home' },
+              { to: '/collections', label: 'Collection' },
+              { to: '/about', label: 'About' },
+              { to: '/contact', label: 'Contact' },
+            ].map((item) => (
+              <NavLink
+                key={item.to}
+                onClick={() => setVisible(false)}
+                to={item.to}
+                className={({ isActive }) =>
+                  `px-5 py-3.5 text-base tracking-wide transition-colors ${
+                    isActive
+                      ? 'text-black font-semibold bg-gray-50 border-l-4 border-black'
+                      : 'text-gray-600 border-l-4 border-transparent hover:bg-gray-50'
+                  }`
+                }
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </nav>
         </div>
       </div>
 
